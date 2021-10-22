@@ -1,4 +1,5 @@
 // FONTS
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap');
 $text-small: "Montserrat", sans-serif;
 
 // FONT-SIZES
@@ -7,4 +8,6 @@ $font-lg-small: 25px;
 $font-md-small: 22px;
 $font-sm-small: 18px;
 $font-xs-small: 16px;
+
+$reduced-heading: calc(100% - 5px); 
 

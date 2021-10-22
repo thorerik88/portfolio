@@ -3,3 +3,7 @@
 
 @import './partials/general/nav-hero';
 @import './partials/general/typography';
+
+body {
+    font-family: $text-small;
+}

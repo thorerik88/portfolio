@@ -1,7 +1,15 @@
 h1 {
     font-size: $font-xl-small;
+    letter-spacing: .2rem;
+    font-weight: normal;
 }
 
 h2 {
     font-size: $font-lg-small;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: $font-md-small;
+    font-weight: normal;
 }

@@ -12,7 +12,15 @@
     &__header {
         display: flex;
         flex-direction: column;
-        
-        
+        margin: 3rem 0 0 1rem;
+
+        &__heading {
+            margin-bottom: 1rem;
+
+            span {
+                font-size: $reduced-heading;
+                
+            }
+        }
     }
 }
