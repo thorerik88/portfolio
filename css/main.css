@@ -62,7 +62,7 @@
   box-shadow: 0px 0px 8px white;
 }
 
-.nav-hero__header__content__title h3:nth-child(2) {
+.nav-hero__header__content__title h2:nth-child(2) {
   text-align: center;
 }
 
@@ -81,21 +81,28 @@ h1 {
 }
 
 h2 {
-  font-size: 25px;
-  font-weight: normal;
-}
-
-h3 {
   font-size: 22px;
   font-weight: normal;
 }
 
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
   font-size: 16px;
   font-weight: normal;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: black;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */

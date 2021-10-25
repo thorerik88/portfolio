@@ -1,10 +1,13 @@
 @import './partials/resets';
 @import './partials/variables';
 @import './partials/slogan';
+@import './partials/me';
 
 @import './partials/general/nav-hero';
 @import './partials/general/typography';
 
 body {
     font-family: $text-small;
+    background: black;
+    color: white;
 }
