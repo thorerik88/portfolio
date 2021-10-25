@@ -12,21 +12,55 @@
   background-size: cover;
   background-position: bottom right;
   color: white;
-  height: 300px;
+  height: 340px;
 }
 
 .nav-hero__header {
   display: flex;
   flex-direction: column;
-  margin: 3rem 0 0 1rem;
+  margin: 3rem 0 0;
 }
 
 .nav-hero__header__heading {
-  margin-bottom: 1rem;
+  margin: 0 auto 1.5rem;
 }
 
 .nav-hero__header__heading span {
   font-size: calc(100% - 5px);
+}
+
+.nav-hero__header__content {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-hero__header__content__title:last-of-type {
+  margin: 0 auto;
+}
+
+.nav-hero__header__content__title:last-of-type button {
+  display: none;
+  border: none;
+  padding: .4rem 1.2rem;
+  font-size: 16px;
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(white, black 30%);
+  border: 2px solid #228b22;
+  box-shadow: 0px 0px 8px white;
+}
+
+.nav-hero__header__content__title h3:nth-child(2) {
+  text-align: center;
+}
+
+.nav-hero__header__hamburger {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin-top: 1.5rem;
 }
 
 h1 {
