@@ -63,9 +63,10 @@
 
 .projects__box {
   text-align: left;
-  padding: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px 10px 0 0;
   background-color: #333;
-  width: 70%;
+  width: 85%;
   margin-bottom: 2rem;
 }
 
@@ -100,21 +101,32 @@
 
 .your-project__box {
   background-color: #333;
-  width: 70%;
+  width: 85%;
   margin-bottom: 2rem;
+  border-radius: 10px 10px 0 0;
 }
 
 .your-project__box__img img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .your-project__box__text {
   text-align: left;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .your-project__box__text p:first-of-type {
   font-weight: bold;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: -51.2px;
+  background: #333;
+  width: 100%;
+  padding: 1rem 0;
+  display: none !important;
 }
 
 .nav-hero {
@@ -124,7 +136,8 @@
   background-size: cover;
   background-position: bottom right;
   color: white;
-  height: 520px;
+  height: 510px;
+  position: relative;
 }
 
 .nav-hero__header {
@@ -183,6 +196,21 @@
           flex-direction: column;
   font-size: 30px;
   margin-top: 1.5rem;
+}
+
+.nav-hero__header__nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.nav-hero__header__nav-menu a {
+  margin: 0 .7rem;
+  border-bottom: none;
 }
 
 h1 {

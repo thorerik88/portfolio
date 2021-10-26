@@ -6,19 +6,21 @@
 
     &__box {
         background-color: $grey;
-        width: 70%;
+        width: 85%;
         margin-bottom: 2rem;
+        border-radius: 10px 10px 0 0;
 
         &__img {
             
             img {
                 width: 100%;
+                border-radius: 10px 10px 0 0;
             }
         }
 
         &__text {
             text-align: left;
-            padding: 1rem;
+            padding: 1.5rem;
             
             p:first-of-type {
                 font-weight: bold;
