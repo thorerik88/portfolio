@@ -1,0 +1,33 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    &__box {
+        text-align: left;
+        padding: 1rem;
+        background-color: $grey;
+        width: 70%;
+        margin-bottom: 2rem;
+         
+        &__info {
+        // margin: 3rem 0;
+
+            &__logo {
+                width: 125px;
+                height: 37px;
+            }
+
+            p:first-of-type {
+                font-style: italic;
+                margin-top: -.2rem;
+                font-size: 14px;
+            }
+        }
+
+        &__screenshots {
+            margin-top: 2rem;
+        }
+    }   
+}

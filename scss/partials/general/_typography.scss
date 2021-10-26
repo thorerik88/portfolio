@@ -7,10 +7,12 @@ h1 {
 h2 {
     font-size: $font-md-small;
     font-weight: normal;
+    margin-bottom: 1.2rem;
 }
 
 h3 {
     font-size: $font-sm-small;
+    margin-bottom: 1.2rem;
     font-weight: normal;
 }
 
@@ -22,4 +24,12 @@ h4 {
 p {
     font-size: $font-xs-small;
     font-weight: normal;
+    margin: .7rem 0;
+    line-height: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid $green;
 }

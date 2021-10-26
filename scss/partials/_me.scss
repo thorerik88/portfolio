@@ -1,0 +1,23 @@
+.me {
+
+    &__silhouette {
+        
+        img {
+            width: 50%;
+            margin-bottom: 1rem;
+        }
+    }
+
+    &__summary {
+        width: 70%;
+        margin: 0 auto;
+
+            &__contact {
+                margin-top: 2rem;
+
+                button {
+                margin: 1rem 0;
+            }
+        }
+    }
+}
