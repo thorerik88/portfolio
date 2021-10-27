@@ -63,3 +63,29 @@
         }
     }
 }
+
+@media only screen and (min-device-width: 667px) {
+   
+    .nav-hero {
+    padding: 1rem 1rem 0 1rem;
+    background-image: url("../../../assets/edited/hero_small_750x500.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    color: white;
+    height: 510px;
+    position: relative;
+    
+
+        &__header {
+        
+            &__nav-menu {
+            
+                a {
+                    margin: 0 7%;
+                }
+            }
+        }
+    }   
+
+}
