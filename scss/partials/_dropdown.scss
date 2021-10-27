@@ -1,9 +1,10 @@
 .dropdown {
+    display: none;
     position: absolute;
-    bottom: -51.2px;
+    bottom: -64px;
+    left: 0;
     background: $grey;
     width: 100%;
-    padding: 1rem 0;
-    display: none !important;
-}
+    padding: 1.5rem 0;
 
+}
