@@ -28,15 +28,6 @@
             align-items: center;
             flex-direction: column;
             margin: 1rem auto;
-            
-            
-            &__title:last-of-type {
-                margin: 0 auto;
-            }
-
-            &__title h2:nth-child(2) {
-                text-align: center;
-            }
         }
 
         &__nav-menu {
@@ -72,15 +63,18 @@
     .nav-hero {
         background-image: url("../../../assets/edited/hero_large-01.jpg");
         background-position: bottom;
+        
         // height: 750px;
 
         &__header {
+            margin: 3rem auto 0;
             flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 90%;
 
-            &__heading {
-                margin: 3rem 0 0 1rem;
-                
-            }
+            &
+            
             
             &__nav-menu {
                 left: 2rem;
@@ -99,5 +93,21 @@
             display: none;
         }
     }   
+}
+
+@media only screen and (min-device-width: 1200px) {
+    .nav-hero {
+        height: 700px;
+
+         &__header {
+            // margin: 0 auto;
+            margin-top: 10rem;
+            
+
+            &__content {
+                margin: 2rem 0 0 15rem;
+            }            
+        }
+    }
 }
 

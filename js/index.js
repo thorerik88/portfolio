@@ -1,6 +1,6 @@
 // mobile dropdown menu
 
-const mobileBtn = document.querySelector(".nav-hero__header__hamburger");
+const mobileBtn = document.querySelector(".nav-hero__hamburger");
 const mobileMenu = document.querySelector(".dropdown");
 let icon = document.querySelector(".fa-bars");
 
