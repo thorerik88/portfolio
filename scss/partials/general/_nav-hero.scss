@@ -32,23 +32,11 @@
             
             &__title:last-of-type {
                 margin: 0 auto;
-
-                button {
-                    margin-top: 2rem;
-                }
             }
 
             &__title h2:nth-child(2) {
                 text-align: center;
             }
-        }
-
-        &__hamburger {
-            display: flex;
-            text-align: center;
-            flex-direction: column;
-            font-size: 30px;
-            margin-top: 1.5rem;
         }
 
         &__nav-menu {
@@ -62,19 +50,53 @@
             }
         }
     }
+    &__contact {
+        text-align: center;
+
+        button {
+            margin-top: 1rem;
+        }
+    }
+
+    &__hamburger {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 30px;
+        margin-top: 1.5rem;
+    }
 }
 
-@media only screen and (min-device-width: 667px) {
+@media only screen and (min-device-width: 769px) {
    
     .nav-hero {
+        background-image: url("../../../assets/edited/hero_large-01.jpg");
+        background-position: bottom;
+        // height: 750px;
+
         &__header {
-        
-            &__nav-menu {
+            flex-direction: row;
+
+            &__heading {
+                margin: 3rem 0 0 1rem;
+                
+            }
             
+            &__nav-menu {
+                left: 2rem;
+
                 a {
                     margin: 0 7%;
                 }
             }
+        }
+        
+        &__contact {
+            margin-top: 3rem;
+        }
+
+        &__hamburger {
+            display: none;
         }
     }   
 }
