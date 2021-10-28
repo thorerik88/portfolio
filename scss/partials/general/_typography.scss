@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+    font-family: $text-large;
+}
+
 h1 {
     font-size: $font-xl-small;
     letter-spacing: .2rem;
@@ -5,19 +9,19 @@ h1 {
 }
 
 h2 {
-    font-size: $font-md-small;
+    font-size: $font-lg-small;
     font-weight: normal;
     margin-bottom: 1.2rem;
 }
 
 h3 {
-    font-size: $font-sm-small;
+    font-size: $font-md-small;
     margin-bottom: 1.2rem;
     font-weight: normal;
 }
 
 h4 {
-    font-size: $font-xs-small;
+    font-size: $font-sm-small;
     font-weight: bold;
 }
 

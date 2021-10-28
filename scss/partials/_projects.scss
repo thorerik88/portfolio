@@ -8,7 +8,7 @@
         text-align: left;
         padding: 1.5rem;
         border-radius: 10px 10px 0 0;
-        background-color: $grey;
+        // background-color: $grey;
         width: 85%;
         margin-bottom: 2rem;
          
@@ -31,4 +31,26 @@
             margin-top: 2rem;
         }
     }   
+}
+
+@media only screen and (min-device-width: 1025px) {
+    .projects {
+
+        &__box {
+            // display: inline-block;
+            max-width: 800px;
+            
+            &__info {
+                display: inline-block;
+                width: 30%;
+                vertical-align: middle;
+            }
+
+            &__screenshots {
+                vertical-align: bottom;
+                display: inline-block;
+                width: 69%;
+            }
+        }
+    }
 }
