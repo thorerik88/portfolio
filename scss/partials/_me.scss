@@ -12,11 +12,14 @@
         width: 70%;
         margin: 0 auto;
 
-            &__contact {
-                margin-top: 2rem;
+        &__contact {
+            margin-top: 2rem;
 
-                button {
+            button {
                 margin: 1rem 0;
+            }
+            a {
+                border: none;
             }
         }
     }

@@ -47,6 +47,10 @@
   margin: 1rem 0;
 }
 
+.me__summary__contact a {
+  border: none;
+}
+
 @media only screen and (min-device-width: 769px) {
   .me {
     display: -webkit-box;
@@ -302,6 +306,9 @@
   }
   .nav-hero__contact {
     margin-top: 3rem;
+  }
+  .nav-hero__contact a {
+    border: none;
   }
   .nav-hero__hamburger {
     display: none;

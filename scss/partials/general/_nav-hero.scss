@@ -19,7 +19,6 @@
 
             span {
                 font-size: $reduced-heading;
-                
             }
         }
 
@@ -33,7 +32,6 @@
         &__nav-menu {
             display: flex;
             justify-content: center;
-            // margin-top: 1rem;
 
             a {
                 margin: 0 3%;
@@ -42,8 +40,7 @@
             }
 
             a:hover {
-                background: $green;
-                
+                background: $green;   
             }
         }
     }
@@ -69,8 +66,6 @@
     .nav-hero {
         background-image: url("../assets/edited/hero_large-01.jpg");
         background-position: bottom;
-        
-        // height: 750px;
 
         &__header {
             margin: 7rem auto 0;
@@ -102,6 +97,10 @@
         
         &__contact {
             margin-top: 3rem;
+
+            a {
+                border: none;
+            }
         }
 
         &__hamburger {
@@ -115,7 +114,6 @@
         height: 700px;
 
          &__header {
-            // margin: 0 auto;
             margin-top: 10rem;
             
 

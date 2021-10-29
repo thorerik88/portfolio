@@ -7,12 +7,11 @@
     &__box {
         text-align: left;
         border-radius: 10px 10px 0 0;
-        // background-color: $grey;
+        
         width: 85%;
         margin-bottom: 2rem;
          
         &__info {
-        // margin: 3rem 0;
 
             &__logo {
                 width: 125px;
@@ -36,7 +35,6 @@
     .projects {
 
         &__box {
-            // display: inline-block;
             max-width: 800px;
             
             &__info {
