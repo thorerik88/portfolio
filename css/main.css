@@ -16,8 +16,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0))), url("../../../assets/edited/fire.jpg");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0)), url("../../../assets/edited/fire.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0))), url("../assets/edited/fire.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0)), url("../assets/edited/fire.jpg");
   background-size: cover;
   background-position: top;
   width: 100%;
@@ -53,7 +53,7 @@
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
-    padding: 1.5rem;
+    padding: 1.5rem 0;
     max-width: 700px;
   }
   .me__silhouette img {
@@ -75,12 +75,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
 }
 
 .projects__box {
   text-align: left;
-  padding: 1.5rem;
   border-radius: 10px 10px 0 0;
   width: 85%;
   margin-bottom: 2rem;
@@ -128,7 +126,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
 }
 
 .your-project__box {
@@ -189,7 +186,7 @@
 
 .nav-hero {
   padding: 1rem 1rem 0 1rem;
-  background-image: url("../../../assets/edited/hero_small_750x500.jpg");
+  background-image: url("../assets/edited/hero_small_750x500.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -242,7 +239,12 @@
 
 .nav-hero__header__nav-menu a {
   margin: 0 3%;
+  padding: .5rem;
   border-bottom: none;
+}
+
+.nav-hero__header__nav-menu a:hover {
+  background: #228b22;
 }
 
 .nav-hero__contact {
@@ -268,11 +270,11 @@
 
 @media only screen and (min-device-width: 769px) {
   .nav-hero {
-    background-image: url("../../../assets/edited/hero_large-01.jpg");
+    background-image: url("../assets/edited/hero_large-01.jpg");
     background-position: bottom;
   }
   .nav-hero__header {
-    margin: 3rem auto 0;
+    margin: 7rem auto 0;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -284,10 +286,18 @@
             align-items: center;
     width: 90%;
   }
-  .nav-hero__header .nav-hero__header__nav-menu {
+  .nav-hero__header__heading {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .nav-hero__header__content h2 {
+    margin-bottom: 0;
+  }
+  .nav-hero__header__nav-menu {
     left: 2rem;
   }
-  .nav-hero__header .nav-hero__header__nav-menu a {
+  .nav-hero__header__nav-menu a {
     margin: 0 7%;
   }
   .nav-hero__contact {
@@ -357,11 +367,16 @@ button {
   font-size: 18px;
   border-radius: 5px;
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(30%, black));
-  background: linear-gradient(white, black 30%);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(30%, black)), black;
+  background: linear-gradient(white, black 30%), black;
   border: 2px solid #228b22;
   -webkit-box-shadow: 0px 0px 8px white;
           box-shadow: 0px 0px 8px white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #228b22;
 }
 
 @media only screen and (min-device-width: 769px) {
@@ -377,7 +392,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 1rem;
+  padding: 0 1rem 1rem;
 }
 
 .social i {
@@ -394,7 +409,7 @@ body {
 
 section {
   text-align: center;
-  margin: 3rem auto;
+  margin: 6rem auto;
   max-width: 1000px;
 }
 

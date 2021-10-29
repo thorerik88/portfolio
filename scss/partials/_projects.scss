@@ -2,11 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    
 
     &__box {
         text-align: left;
-        padding: 1.5rem;
         border-radius: 10px 10px 0 0;
         // background-color: $grey;
         width: 85%;
