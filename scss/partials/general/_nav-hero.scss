@@ -1,6 +1,6 @@
 .nav-hero {
     padding: 1rem 1rem 0 1rem;
-    background-image: url("../../../assets/edited/hero_small_750x500.jpg");
+    background-image: url("../assets/edited/hero_small_750x500.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom right;
@@ -19,7 +19,6 @@
 
             span {
                 font-size: $reduced-heading;
-                
             }
         }
 
@@ -28,64 +27,100 @@
             align-items: center;
             flex-direction: column;
             margin: 1rem auto;
-            
-            
-            &__title:last-of-type {
-                margin: 0 auto;
-
-                button {
-                    margin-top: 2rem;
-                }
-            }
-
-            &__title h2:nth-child(2) {
-                text-align: center;
-            }
-        }
-
-        &__hamburger {
-            display: flex;
-            text-align: center;
-            flex-direction: column;
-            font-size: 30px;
-            margin-top: 1.5rem;
         }
 
         &__nav-menu {
             display: flex;
             justify-content: center;
-            // margin-top: 1rem;
 
             a {
                 margin: 0 3%;
+                padding: .5rem;
                 border-bottom: none;
+            }
+
+            a:hover {
+                background: $green;   
             }
         }
     }
+    &__contact {
+        text-align: center;
+
+        button {
+            margin-top: 1rem;
+        }
+    }
+
+    &__hamburger {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        font-size: 30px;
+        margin-top: 1.5rem;
+    }
 }
 
-@media only screen and (min-device-width: 667px) {
+@media only screen and (min-device-width: 769px) {
    
     .nav-hero {
-    padding: 1rem 1rem 0 1rem;
-    background-image: url("../../../assets/edited/hero_small_750x500.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom right;
-    color: white;
-    height: 510px;
-    position: relative;
-    
+        background-image: url("../assets/edited/hero_large-01.jpg");
+        background-position: bottom;
 
         &__header {
-        
-            &__nav-menu {
+            margin: 7rem auto 0;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 90%;
+
+            &__heading {
+                flex: 1;
+            }
+
+            &__content {
+
+                h2 {
+                    margin-bottom: 0;
+                }
+            }
             
+            
+            &__nav-menu {
+                left: 2rem;
+
                 a {
                     margin: 0 7%;
                 }
             }
         }
-    }   
+        
+        &__contact {
+            margin-top: 3rem;
 
+            a {
+                border: none;
+            }
+        }
+
+        &__hamburger {
+            display: none;
+        }
+    }   
 }
+
+@media only screen and (min-device-width: 1200px) {
+    .nav-hero {
+        height: 700px;
+
+         &__header {
+            margin-top: 10rem;
+            
+
+            &__content {
+                margin: 2rem 0 0 15rem;
+            }            
+        }
+    }
+}
+

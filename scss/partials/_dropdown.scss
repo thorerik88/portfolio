@@ -8,3 +8,12 @@
     padding: 1.5rem 0;
 
 }
+
+@media only screen and (min-device-width: 769px) {
+    .dropdown {
+        display: block;
+        left: 12px;
+        background: none;
+        bottom: 0;
+    }
+}

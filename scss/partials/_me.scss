@@ -12,12 +12,35 @@
         width: 70%;
         margin: 0 auto;
 
-            &__contact {
-                margin-top: 2rem;
+        &__contact {
+            margin-top: 2rem;
 
-                button {
+            button {
                 margin: 1rem 0;
             }
+            a {
+                border: none;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 769px) {
+    .me {
+        display: flex;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+        max-width: 700px;
+
+        &__silhouette {
+
+            img {
+                width: 100%;
+            }
+        }
+
+        &__summary {
+            padding: 1rem;
         }
     }
 }

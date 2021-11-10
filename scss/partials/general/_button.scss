@@ -1,10 +1,23 @@
 button {
-                    border: none;
-                    padding: .4rem 1.2rem;
-                    font-size: $font-xs-small;
-                    border-radius: 5px;
-                    color: white;
-                    background: linear-gradient(white, black 30%);
-                    border: 2px solid #228b22;
-                    box-shadow: 0px 0px 8px white; 
-                }
+    border: none;
+    font-family: $text-small;
+    padding: .4rem 1.2rem;
+    font-size: $font-xs-small;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(white, black 30%),
+    black;
+    border: 2px solid #228b22;
+    box-shadow: 0px 0px 8px white; 
+    cursor: pointer;
+}
+
+button:hover {
+    background: $green;
+}
+
+@media only screen and (min-device-width: 769px) {
+    button {
+        padding: .6rem 1.4rem;
+    }    
+}
