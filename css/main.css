@@ -210,6 +210,8 @@
 @media only screen and (min-device-width: 1025px) {
   .together {
     display: flex;
+    align-items: center;
+    width: 85%;
   }
 }
 
@@ -278,7 +280,7 @@
 
 @media only screen and (min-device-width: 769px) {
   .nav-hero {
-    background-image: url("../assets/edited/hero_large-02.jpg");
+    background-image: url("../assets/edited/hero_large02.jpg");
     background-position: bottom;
   }
   .nav-hero__header {
@@ -320,6 +322,15 @@
   }
   .nav-hero__header__content {
     margin: 2rem 0 0 15rem;
+  }
+}
+
+@media only screen and (min-device-width: 1500px) {
+  .nav-hero {
+    height: 850px;
+  }
+  .nav-hero__contact button {
+    margin-top: +10rem;
   }
 }
 

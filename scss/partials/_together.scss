@@ -49,5 +49,7 @@
 @media only screen and (min-device-width: 1025px) {
     .together {
         display: flex;
+        align-items: center;
+        width: 85%;
     }
 }
