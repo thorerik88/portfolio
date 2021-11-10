@@ -1,0 +1,53 @@
+.together {
+    width: 85%;
+    margin: 0 auto;
+
+    &__heading {
+        border: 1px solid #707070;
+        border-radius: 10px 10px 0 0;
+        padding-top: 1rem;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        // margin-top: 2rem;
+
+        img {
+            width: 100%;
+        }
+
+        button {
+            box-shadow: none;
+            border: none;
+            padding: 1rem;
+            background: #226a22;
+            border-radius: 0 0 10px 10px;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 769px) {
+    .together {
+        width: 50%;
+
+        &__heading {
+            border: none;
+        }
+
+        &__box {
+            
+
+            img {
+            
+                border-radius: 10px 10px 0 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 1025px) {
+    .together {
+        display: flex;
+    }
+}

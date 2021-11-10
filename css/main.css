@@ -1,22 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,100;1,400&family=Overpass:wght@400;600;700&display=swap");
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 .slogan {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(black)), -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0))), url("../assets/edited/fire.jpg");
+  align-items: center;
+  justify-content: center;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), black), linear-gradient(to bottom, black, rgba(0, 0, 0, 0)), url("../assets/edited/fire.jpg");
   background-size: cover;
   background-position: top;
@@ -53,8 +45,6 @@
 
 @media only screen and (min-device-width: 769px) {
   .me {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     padding: 1.5rem 0;
@@ -69,16 +59,9 @@
 }
 
 .projects {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects__box {
@@ -103,6 +86,11 @@
   margin-top: 2rem;
 }
 
+.rorogservice {
+  width: 100px;
+  height: 70px;
+}
+
 @media only screen and (min-device-width: 1025px) {
   .projects__box {
     max-width: 800px;
@@ -120,16 +108,9 @@
 }
 
 .your-project {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .your-project__box {
@@ -156,8 +137,6 @@
 
 @media only screen and (min-device-width: 769px) {
   .your-project__box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .your-project__box__img {
@@ -188,9 +167,55 @@
   }
 }
 
+.together {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.together__heading {
+  border: 1px solid #707070;
+  border-radius: 10px 10px 0 0;
+  padding-top: 1rem;
+}
+
+.together__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.together__box img {
+  width: 100%;
+}
+
+.together__box button {
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  background: #226a22;
+  border-radius: 0 0 10px 10px;
+}
+
+@media only screen and (min-device-width: 769px) {
+  .together {
+    width: 50%;
+  }
+  .together__heading {
+    border: none;
+  }
+  .together__box img {
+    border-radius: 10px 10px 0 0;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  .together {
+    display: flex;
+  }
+}
+
 .nav-hero {
   padding: 1rem 1rem 0 1rem;
-  background-image: url("../assets/edited/hero_small_750x500.jpg");
+  background-image: url("../assets/edited/hero_small_750x500-01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom right;
@@ -200,13 +225,8 @@
 }
 
 .nav-hero__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: 5rem 0 0;
 }
 
@@ -219,26 +239,15 @@
 }
 
 .nav-hero__header__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
   margin: 1rem auto;
 }
 
 .nav-hero__header__nav-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .nav-hero__header__nav-menu a {
@@ -260,40 +269,27 @@
 }
 
 .nav-hero__hamburger {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   text-align: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   font-size: 30px;
   margin-top: 1.5rem;
 }
 
 @media only screen and (min-device-width: 769px) {
   .nav-hero {
-    background-image: url("../assets/edited/hero_large-01.jpg");
+    background-image: url("../assets/edited/hero_large-02.jpg");
     background-position: bottom;
   }
   .nav-hero__header {
     margin: 7rem auto 0;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 90%;
   }
   .nav-hero__header__heading {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    flex: 1;
   }
   .nav-hero__header__content h2 {
     margin-bottom: 0;
@@ -364,7 +360,6 @@ p {
 a {
   text-decoration: none;
   color: white;
-  border-bottom: 1px solid #228b22;
 }
 
 button {
@@ -374,11 +369,9 @@ button {
   font-size: 18px;
   border-radius: 5px;
   color: white;
-  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(30%, black)), black;
   background: linear-gradient(white, black 30%), black;
   border: 2px solid #228b22;
-  -webkit-box-shadow: 0px 0px 8px white;
-          box-shadow: 0px 0px 8px white;
+  box-shadow: 0px 0px 8px white;
   cursor: pointer;
 }
 
@@ -393,12 +386,8 @@ button:hover {
 }
 
 .social {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   padding: 0 1rem 1rem;
 }
 
