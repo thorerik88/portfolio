@@ -15,7 +15,12 @@ const Posts = ({...data}) => {
               <h4>{data.heading}</h4>
               {data.url ? <div className={styles.url}>
                 <Link href={data.url}>
-                  <a>{data.url}</a>
+                  <p>Website: <a>{data.url}</a></p>
+                </Link>
+              </div> : ''}
+              {data.git ? <div className={styles.url}>
+                <Link href={data.git}>
+                  <p>Github  <a>Repository</a></p>
                 </Link>
               </div> : ''}
               <p>{data.text1}</p>
