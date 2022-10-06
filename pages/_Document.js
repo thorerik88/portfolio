@@ -7,9 +7,9 @@ const Document = () => {
       <meta charSet="UTF-8" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="robot" content="follow, index" />
-      <meta name="description" content="Holidaze provides a large selection of accomodations in Bergen and is easy to use. Remember us for your next trip to Bergen" />
+      <meta name="description" content="A portfolio page for Thor-Erik Støvland" />
       <meta name="robots" content="index, follow" />
-      <meta name="keywords" content="accomodation, bergen, vestland, hotel, motel, bed, breakfast, holiday" />
+      <meta name="keywords" content="webdesign, website, homepage, design, logo, front end" />
       <meta name="author" content="Thor-Erik" />
       </Head>
       <body>
