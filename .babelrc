@@ -1,5 +1,4 @@
 {
-  "extends": ["next/babel","next/core-web-vitals"],
-  "presets": [],
-  "plugins": [],
+  "presets": ["next/babel", "@babel/preset-env", "@babel/preset-react"],
+  "plugins": []
 }
