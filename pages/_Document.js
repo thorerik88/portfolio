@@ -1,7 +1,8 @@
-import { Html, Head, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const Document = () => {
-  return ( 
+class MyDocument extends Document {
+  render() {
+    return (
     <Html>
       <Head>
       <meta charSet="UTF-8" />
@@ -17,7 +18,8 @@ const Document = () => {
         <Main />
       </body>
     </Html>
-   );
+    )
+  }
 }
  
-export default Document;
+export default MyDocument;
