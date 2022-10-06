@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 import Nav from '../components/Nav'
 import styles from '../styles/Home.module.scss'
 import Footer from '../components/Footer'
-import About from '../components/main/about'
+import About from '../components/main/About'
 
 export default function Home() {
   
