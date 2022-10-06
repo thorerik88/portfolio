@@ -29,10 +29,10 @@ const Footer = () => {
               <h3>Contact me today for non-binding chat</h3>
             </div>
             <div className={styles.social}>
-              <span classname={styles.icon}>
+              <span className={styles.icon}>
                 <ImageCompPlain imageLink={'/facebook-white.svg'} height={1000}/>
               </span>
-              <span classname={styles.icon}>
+              <span className={styles.icon}>
                 <ImageCompPlain imageLink={'/linkedin-white.svg'} height={1000}/>
               </span>
             </div>

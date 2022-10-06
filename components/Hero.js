@@ -1,7 +1,5 @@
 import styles from './Hero.module.scss';
 
-import ImageComp from './ImageComp';
-
 import Button from './Button';
 import ImageCompPlain from './ImageCompPlain';
 
@@ -13,7 +11,7 @@ const Hero = () => {
         <h1>Thor-Erik Støvland.</h1>
         <h1>I build stuff for the internet.</h1>
         <div className={styles.me}>
-          <p>I'm a developer, who designs and code digital experiences</p>
+          <p>I am a developer, who designs and code digital experiences</p>
           <p>At the moment my main focus is at React and Next.js</p>
         </div>
         <div className={styles.button}>
