@@ -1,0 +1,95 @@
+@import '../styles/Variables.module.scss';
+
+.nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 20px 0 10px;
+
+  .menuMobile {
+    display: flex;
+    align-items: center;
+    
+
+    .mobileBtn {
+      color: white;
+      font-size: $h3-size;
+      cursor: pointer;
+    }
+
+    @include tablet-landscape {
+      display: none;
+    }
+  }
+
+  .menuMobile > *, .menuDesktop > * {
+    margin: 0 20px;
+  }
+
+  
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem 3rem 0 2rem;
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $color-primary;
+      margin-right: 1rem;
+    }
+    @include tablet-landscape {
+      padding: .5rem 3rem 0 3rem;
+    }
+  }
+
+  .close {
+    color: $color-primary;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+}
+
+.download {
+  border: 1px solid $color-primary;
+  color: $color-primary;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.download:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+}
+
+.desktopNav {
+  display: none;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  
+  .menu {
+
+    a {
+      color: $color-primary;
+      margin-right: 1rem;
+    }
+  }
+
+  @include tablet-landscape {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}

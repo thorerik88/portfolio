@@ -1,0 +1,33 @@
+@import '../../styles/Variables.module.scss';
+
+.about {
+  margin: 2rem 0;
+
+  .wrapper {
+    display: flex;
+    margin: 1.5rem 0;
+
+    .profileImage {
+      position: relative;
+      flex: 1;
+      margin: 1.2rem .5rem 1rem;
+      max-width: 150px;
+    }
+  
+    .content {
+      flex: 2.2;
+      margin: 1rem 0 0;
+
+      h4 {
+        margin-top: 0;
+      }
+      
+      .url {
+        display: inline-block;
+        margin: 1rem 0 0;
+        color: $color-primary;
+        border-bottom: 1px solid $color-primary;
+      }
+    }
+  }
+}

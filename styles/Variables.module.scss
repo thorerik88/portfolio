@@ -1,0 +1,22 @@
+$color-primary: #EBA123;
+
+$h1-size: 3.5rem;
+$h2-size: 2.5rem;
+$h3-size: 2rem;
+$p-size: 1rem;
+
+@mixin tablet-portrait {
+  @media (min-width: 480px) { @content; }
+}
+
+@mixin tablet-landscape {
+  @media (min-width: 900px) { @content; }
+}
+
+@mixin desktop-small {
+  @media (min-width: 1200px) { @content; }
+}
+
+@mixin desktop-large {
+  @media (min-width: 1800px) { @content; }
+}

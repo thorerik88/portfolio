@@ -1,0 +1,23 @@
+@import '../../styles/Variables.module.scss';
+
+.list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  position: relative;
+  max-height: 130px;
+
+  .listItem {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon {
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid $color-primary;
+    margin: 5px;
+  }
+}

@@ -1,0 +1,47 @@
+@import '../styles/Variables.module.scss';
+
+.hero {
+  margin: 2rem 0;
+  display: flex;
+
+  .text {
+    flex: 2;
+
+    h1:first-of-type {
+      color: #AAA;
+      margin-bottom: 1rem;
+
+      @include desktop-small {
+        margin-bottom: 2.5rem;
+      }
+    }
+  
+    .me {
+      width: 65%;
+      margin: 3rem 0;
+
+      @include desktop-small {
+        margin: 4rem 0;
+      }
+    }
+  }
+
+  .mockup {
+    display: none;
+    flex: 1;
+
+    @include desktop-small {
+      display: block;
+    }
+  }
+
+  @include tablet-landscape {
+    max-width: 1000px;
+    margin: 4rem auto 8rem;
+  }
+
+  @include desktop-small {
+    max-width: 1200px;
+    padding: 2rem;
+  }
+}

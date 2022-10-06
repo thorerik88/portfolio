@@ -1,0 +1,75 @@
+@import '../styles/Variables.module.scss';
+
+.footer {
+  padding: 10px 0 30px;
+  margin: 0 auto;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .statement {
+      display: flex;
+      flex-direction: column;
+
+      .heading {
+        h3 {
+          margin: 2rem 0;
+          text-align: center;
+        }
+      }
+      .social {
+        display: flex;
+        justify-content: center;
+        width: 150px;
+        margin: 0 auto;
+
+        span {
+          width: 40px;
+          margin: 2rem auto;
+          text-align: center;
+        }
+      }
+    }
+    
+  
+    .content {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+  
+      .image {
+        flex: 2;
+        margin-right: 30px;
+        max-width: 200px;
+      }
+      
+      .info {
+        display: flex;
+        flex-direction: column;
+      }
+      .info a, .info p {
+        display: inline-block;
+        color: $color-primary;
+        margin: .6rem 0;
+      }
+
+      .info a:hover {
+        color: white;
+        border-bottom: none;
+      }
+    }
+
+    @include tablet-landscape {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      margin: 2rem 0;
+    }
+  }
+
+  @include tablet-landscape {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}

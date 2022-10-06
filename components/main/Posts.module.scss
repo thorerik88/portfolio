@@ -1,0 +1,50 @@
+@import '../../styles/Variables.module.scss';
+
+.posts:first-of-type {
+  margin: 0 0 2rem;
+}
+
+.posts {
+  margin: 2rem 0;
+  .content {
+    display: flex;
+    justify-content: space-between;
+
+    .wrapper {
+      width: 100%;
+      margin: 1rem 0 0;
+
+      .text {
+
+        .heading {
+          font-weight: bold;
+        }
+
+        @include tablet-portrait {
+          flex: 2;
+        }
+      }
+
+      .image {
+        position: relative;
+        align-self: center;
+        margin: 1.2rem 0;
+
+        @include tablet-portrait {
+          flex: 1.5;
+          max-width: 300px;
+        }
+      }
+
+      @include tablet-portrait {
+       display: flex;   
+      }
+    }
+  }
+
+  .url {
+    display: inline-block;
+    color: $color-primary;
+    border-bottom: 1px solid $color-primary;
+  }
+}
