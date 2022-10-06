@@ -24,7 +24,7 @@ const About = () => {
                 <List listItems={['React', 'Next.js', 'Google Firebase']} />
               </div>
               <div className={styles.profileImage}>
-                <ImageComp imageLink={'/profile.jpg'} height={1250}/>
+                <ImageComp imageLink={'/profile.jpg'} height={1250} altText={'a profile image'}/>
               </div>
             </div>
       </div> 

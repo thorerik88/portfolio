@@ -33,6 +33,7 @@ export default function Home() {
           url={'https://rorogservice.no'}
           listItems={['Design', 'HTML', 'CSS', 'Javascript']}
           imageLink={'/rorservice.png'}
+          altText={'A screenshot of the webpage'}
         />
 
         <Posts 
@@ -42,6 +43,7 @@ export default function Home() {
           url={'https://proteq.no'}
           listItems={['Design', 'HTML', 'CSS', 'Javascript', 'React', 'Next.js', 'Google Firebase']}
           imageLink={'/holidaze.png'}
+          altText={'A screenshot of the webpage'}
         />
 
         <Posts 
@@ -49,6 +51,7 @@ export default function Home() {
           text1={'An E-commerce website project (studies)'}
           listItems={['Vanilla JS', 'SASS', 'Bootstrap']}
           imageLink={'/footwear.png'}
+          altText={'A screenshot of the webpage'}
         />
 
         <Posts 
@@ -56,6 +59,7 @@ export default function Home() {
           text1={'A Javascript project to handle GET requests, localstorage and filtering search results'}
           listItems={['HTML', 'LocalStorage', 'Search Functionality']}
           imageLink={'/javascript.png'}
+          altText={'A screenshot of the webpage'}
         />
 
       </div>

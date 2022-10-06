@@ -12,7 +12,7 @@ const Footer = () => {
         <div className={styles.wrapper}>
           <div className={styles.content}>
             <div className={styles.image}>
-              <ImageComp imageLink={'/profile.jpg'} height={1250}/>
+              <ImageComp imageLink={'/profile.jpg'} height={1250} altText={'a profile image'}/>
             </div>
             <div className={styles.info}>
               <p>Thor-Erik Stoevland</p>

@@ -10,6 +10,7 @@ const ImageComp = ({...data}) => {
           src={data.imageLink}
           height={data.height}
           width={1000}
+          alt={data.altText}
         />
       </div>
     </>

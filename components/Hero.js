@@ -19,7 +19,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={styles.mockup}>
-        <ImageCompPlain imageLink={'/mockup-screens-01.svg'} height={1000}/>
+        <ImageCompPlain imageLink={'/mockup-screens-01.svg'} height={1000} altText={'Screen mockups for illustration purposes'}/>
       </div>
     </div>
   );
