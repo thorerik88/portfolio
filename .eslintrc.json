@@ -4,6 +4,7 @@
     "plugin:react/recommended"
   ],
   "rules": {
-    "@next/next/no-document-import-in-page": "off"
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
