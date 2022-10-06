@@ -20,7 +20,7 @@ const About = () => {
                       <a>My Github account!</a>
                     </Link>
                 </div>
-                <p>Here are some tehcnologies I've worked with lately:</p>
+                <p>Here are some tehcnologies I have worked with lately:</p>
                 <List listItems={['React', 'Next.js', 'Google Firebase']} />
               </div>
               <div className={styles.profileImage}>
