@@ -30,10 +30,14 @@ const Footer = () => {
             </div>
             <div className={styles.social}>
               <span className={styles.icon}>
-                <ImageCompPlain imageLink={'/facebook-white.svg'} height={1000}/>
+                <Link href={'https://www.facebook.com/profile.php?id=588541828'}>
+                <a><ImageCompPlain imageLink={'/facebook-white.svg'} height={1000}/></a>
+                </Link>
               </span>
               <span className={styles.icon}>
-                <ImageCompPlain imageLink={'/linkedin-white.svg'} height={1000}/>
+                <Link href={'https://www.linkedin.com/in/thor-erik-st%C3%B8vland-ab4bb993/'}>
+                <a><ImageCompPlain imageLink={'/linkedin-white.svg'} height={1000}/></a>
+                </Link>
               </span>
             </div>
           </div>

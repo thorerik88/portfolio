@@ -49,6 +49,12 @@
     p a {
       color: $color-primary;
       border-bottom: 1px solid $color-primary;
+      cursor: pointer;
+    }
+
+    p a:hover {
+      color: white;
+      border-bottom: 1px solid white;
     }
   }
 }
